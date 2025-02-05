@@ -19,6 +19,8 @@ resource "aws_iam_role" "eks_admin" {
 POLICY
 }
 
+
+# Grant IAM role Admin access on the AWS side 
 resource "aws_iam_policy" "eks_admin" {
   name = "AmazonEKSAdminPolicy"
 
@@ -48,6 +50,7 @@ resource "aws_iam_policy" "eks_admin" {
 POLICY
 }
 
+# IAM eks_admin role
 resource "aws_iam_role_policy_attachment" "eks_admin" {
   role       = aws_iam_role.eks_admin.name
   policy_arn = aws_iam_policy.eks_admin.arn
