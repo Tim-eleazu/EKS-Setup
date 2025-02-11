@@ -13,4 +13,7 @@ variable "public_zone1_subnet" {}
 variable "public_zone2_subnet" {}
 variable "eks_instance_type" {}
 variable "node_group_name" {}
+variable "addon_name" {}
+variable "addon_version" {}
+
 

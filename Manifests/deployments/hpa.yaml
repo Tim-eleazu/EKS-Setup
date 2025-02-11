@@ -3,7 +3,7 @@ apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
   name: myapp
-  namespace: 3-example
+  namespace: cluster-demo
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
