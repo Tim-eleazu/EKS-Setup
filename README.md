@@ -1,4 +1,11 @@
-# EKS
+# The project is a fully automated AWS EKS setup using Terraform, including: 
+- ✅ Networking (VPC, subnets)
+- ✅ Cluster provisioning (EKS, nodes, Helm for deployments)
+- ✅ Security & Identity (IAM roles, Pod Identity)
+- ✅ Autoscaling (Cluster Autoscaler)
+- ✅ Monitoring & Load Balancing (Metrics Server, Ingress, LB)
+
+### Essentially, it’s a production-ready, secure, and scalable Kubernetes environment on AWS
 
 #### To connect to the cluster
 ``` 
